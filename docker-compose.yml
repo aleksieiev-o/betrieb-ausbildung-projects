@@ -1,3 +1,6 @@
+networks:
+  tsa_oa:
+
 services:
   database:
     container_name: database_container
@@ -19,6 +22,8 @@ services:
       retries: 3
       timeout: 30s
       test: ['CMD', 'healthcheck.sh', '--su-mysql', '--connect', '--innodb_initialized']
+    networks:
+      - tsa_oa
 
 volumes:
   database:
