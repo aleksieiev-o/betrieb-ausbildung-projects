@@ -10,13 +10,13 @@ INSERT INTO categories (name) VALUES
 ;
 
 INSERT INTO tickets (title, description, author, category_id) VALUES
-	('Login issue', 'User cannot log in with correct credentials.', 'Alice', 1),
-	('Page not loading', 'Dashboard page takes too long to load.', 'Bob', 2),
-	('Error 500 on submit', 'Submitting the form triggers a server error.', 'Charlie', 2),
+	('Login issue', 'User cannot log in with correct credentials.', 'Alice Johnson', 1),
+	('Page not loading', 'Dashboard page takes too long to load.', 'Bob Brown', 2),
+	('Error 500 on submit', 'Submitting the form triggers a server error.', 'Charlie Wilson', 2),
 	('Feature request: dark mode', 'Add dark mode to improve usability at night.', 'Diana', 3),
 	('Typo on homepage', 'There is a spelling error in the header section.', 'Ethan', 1),
 	('Password reset email not sent', 'Users do not receive reset emails.', 'Fiona', 2),
-	('Mobile layout broken', 'UI elements overlap on small screens.', 'George', 4),
+	('Mobile layout broken', 'UI elements overlap on small screens.', 'George Brown', 4),
 	('Search not working', 'Search returns no results even for valid queries.', 'Hannah', 2),
 	('Profile update issue', 'Changes in profile are not saved.', 'Ivan', 2),
 	('Slow API response', 'API takes more than 5 seconds to respond.', 'Julia', 5),
